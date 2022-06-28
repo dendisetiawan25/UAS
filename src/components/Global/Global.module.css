@@ -1,0 +1,78 @@
+ /*layar kecil*/
+ .container{
+    padding: 1rem;
+    
+}
+
+.Global{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+
+.Global__title{
+    color: aqua;
+    margin-bottom: 1rem;
+    margin-top: 10rem;
+    
+}
+.Global__genre{
+    color: black;
+    margin-bottom: 1rem;
+}
+.card {
+    padding: 1rem;
+    box-shadow: 0 8px 16px 0 rgba(6, 232, 248, 0.952);
+    height: 10rem;
+    width: 15rem;
+    border-radius: 2rem;
+    margin-bottom: 2rem;
+    flex-direction: row;
+    display: flex;
+    text-align: center;
+
+    
+}
+
+ /*layar sedang*/
+
+   @media(min-width:768px){
+       .indonesia__container{
+           display: flex;
+           flex-direction: row;
+           flex-wrap: wrap;
+       }
+   }
+
+   .container{
+       max-width: 1200px;
+       margin:0 auto;
+   }
+   .indonesia{
+       flex-basis: 60%;
+   }
+
+    /*layar besar*/
+
+    @media(min-width:992px){
+.indonesia{
+    padding: 1rem;
+    flex-basis: 25%;
+}
+    }
+
+    .Sembuh{
+        color:aqua;
+        font-size: 1.44rem;
+    }
+    .Dirawat{
+        color:blue;
+        font-size: 1.44rem;
+
+    }
+    .Meninggal{
+        color:red;
+        font-size: 1.44rem;
+    }

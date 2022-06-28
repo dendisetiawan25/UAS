@@ -1,0 +1,38 @@
+/*Layar Kecil*/
+
+.container{
+    background-color: aqua;
+padding:1rem;
+color:white;
+
+}
+.navbar__brand{
+margin-bottom: 1rem;
+}
+.navbar__list{
+    list-style: none;
+}
+.navbar__item{
+    margin-bottom: 1rem;
+}
+
+/*Layar Sedang */
+
+@media (min-width: 768px){
+    .navbar{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .navbar__brand{
+        margin:0;
+    }
+    .navbar__list{
+        display:flex;
+        flex-direction: row;
+    }
+    .navbar__item{
+        margin: 0  1rem 
+    }
+    
+}

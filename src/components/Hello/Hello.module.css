@@ -1,0 +1,103 @@
+/*layar kecil*/
+.container{
+    padding: 1rem;
+    text-align: center;
+}
+.Hero__title{
+    color:aqua;
+    margin-bottom: 1rem;
+}
+.Hero__genre{
+    color:aqua;
+    margin-bottom: 1rem;
+}
+.Hero__description{
+    color:black;
+    margin-bottom: 1rem;
+}
+.Hero__button{
+    padding : 0.8 rem 1.5rem;
+    border-radius: 10px;
+    border: none;
+    background-color:aqua;
+    color:aqua;
+    margin-bottom: 2rem;
+   
+}
+.Hello__image{
+    max-width: 100%;
+    border-radius: 20px;
+    flex-basis: 50%;
+    height: auto;
+    margin-bottom: auto;
+}
+
+/*layar sedang  */
+@media (min-width: 768px){
+
+    .container{
+
+    padding: 1 rem ;
+    margin-bottom: 1rem;
+    }
+}
+
+
+
+
+
+/*layar luas */
+
+@media (min-width: 992px){
+    .Hero{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        
+        
+        
+    }
+}
+.container{
+    max-width: 1200px;
+    margin:0 auto;
+    padding: 1rem;
+    text-align: left;
+    padding-left: 10rem;
+}
+.Hero__title{
+    color:aqua;
+    margin-bottom: 1rem;
+}
+.Hello__genre{
+    color:aqua;
+    margin-bottom: 1rem;
+}
+.Hello__description{
+    color:black;
+    margin-bottom: 1rem;
+}
+.Hello__button{
+    padding : 0.8rem 1.5rem;
+    border-radius: 10px;
+    border: none;
+    background-color:aqua;
+    color:black;
+    margin-bottom: 1rem;
+   
+}
+.Hello__image{
+    max-width: 100%;
+    border-radius: 20px;
+    flex-basis: 60%;
+    height: 350px;
+    margin-bottom: 1rem;
+    padding-bottom: 100rem;
+}
+.Hero__left{
+    flex-basis: 40%;
+}
+
+.Hero__right{
+    flex-basis: 60%;
+}
